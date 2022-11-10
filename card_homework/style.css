@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background-color: rgb(244 247 250);
+}
+.card {
+  width: 420px;
+  height: 420px;
+  background-color: rgb(255 255 255);
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.year {
+  padding: 6px 0;
+  background-color: rgb(239 83 34);
+  font-size: 18px;
+  border-top-left-radius: 5px;
+}
+.year p {
+  text-align: center;
+  color: #ffff;
+}
+
+.date {
+  text-align: center;
+  padding: 35px;
+  color: #ffff;
+  background-color: rgb(250 110 64);
+  border-bottom-left-radius: 5px;
+}
+.date p {
+  font-size: 18px;
+}
+.date h1 {
+  font-size: 42px;
+}
+.date p,
+.date h1,
+.year p {
+  font-weight: 300;
+}
+
+.content-cover {
+  padding: 16px 25px 11.16px;
+  box-shadow: 3px 7px 20px rgb(212 214 217);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.course h2 {
+  font-size: 23px;
+  font-weight: 400;
+  padding: 4px 0;
+  color: rgb(70 70 70);
+}
+.course p {
+  color: rgb(70 70 70);
+}
+
+ul {
+  padding: 9px 0 7px;
+  list-style: none;
+}
+li {
+  color: rgb(117 117 117);
+  padding: 5px 0;
+}
+.infor {
+  border-bottom: solid rgb(187 184 184) 1.5px;
+}
+.register {
+  padding-top: 10px;
+}
+.register a {
+  color: rgb(73 131 233);
+  font-size: 17px;
+  text-decoration: none;
+}
+.course p,
+li,
+.register a {
+  font-weight: 300;
+}
