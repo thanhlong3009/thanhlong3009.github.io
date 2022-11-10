@@ -24,3 +24,6 @@
  - Chuyen sau HTML:
  https://wiki.matbao.net/html-la-gi-nen-tang-lap-trinh-web-cho-nguoi-moi-bat-dau/
  - Tham khao link [tai day](https://wiki.matbao.net/html-la-gi-nen-tang-lap-trinh-web-cho-nguoi-moi-bat-dau)
+ > Lorem ipsum dolor sit amet 
+
+ ![anh minh hoa](./img1.jpeg)
