@@ -9,7 +9,7 @@ body {
 }
 .card {
   width: 420px;
-  height: 420px;
+  /* height: 420px; */
   background-color: rgb(255 255 255);
   margin-left: 20px;
   margin-top: 20px;
