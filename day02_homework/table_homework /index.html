@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    table {
+      border: 1px solid rgb(144 144 144);
+    }
+
+    th,
+    td {
+      border: 1px solid black;
+    }
+
+    td.submit {
+      text-align: center;
+    }
+
+    input {
+      border: 1.5px solid rgb(144 144 144);
+    }
+
+    input.reset,
+    input.submit {
+      margin: 0.2rem 0.35rem;
+    }
+  </style>
+</head>
+
+<body>
+  <table>
+    <thead>
+      <tr>
+        <th colspan="2">ĐĂNG KÝ</th>
+
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Fullname</td>
+        <td>
+          <form><input type="text" placeholder="Nhập fullname"></form>
+        </td>
+      </tr>
+      <tr>
+        <td>Username</td>
+        <td>
+          <form action="/"><input type="text" placeholder="Nhập tên"></form>
+        </td>
+      </tr>
+      <tr>
+        <td>Password</td>
+        <td>
+          <form action="/"><input type="password" placeholder="Nhập mật khẩu"></form>
+        </td>
+      </tr>
+      <tr>
+        <td>Nhập lại password</td>
+        <td>
+          <form action="/"><input type="password" placeholder="Nhập lại mật khẩu"></form>
+        </td>
+      </tr>
+      <tr>
+        <td>Giới tính</td>
+        <td>
+          <form action="/">
+            <input type="radio" id="male" name="gender"><label for="male">Nam</label>
+            <input type="radio" id="female" name="gender"><label for="female">Nữ</label>
+          </form>
+        </td>
+      </tr>
+      <tr>
+        <td>Ngày sinh</td>
+        <td>
+          <form action="/">
+            <select name="day" id="day">
+              <option>ngày 1</option>
+              <option>ngày 2</option>
+              <option>ngày 3</option>
+              <option>ngày 4</option>
+              <option>ngày 5</option>
+              <option>ngày 6</option>
+              <option>ngày 7</option>
+              <option>ngày 8</option>
+              <option>ngày 9</option>
+              <option>ngày 10</option>
+              <option>ngày 11</option>
+              <option>ngày 12</option>
+              <option>ngày 13</option>
+              <option>ngày 14</option>
+              <option>ngày 15</option>
+              <option>ngày 16</option>
+              <option>ngày 17</option>
+              <option>ngày 18</option>
+              <option>ngày 19</option>
+              <option>ngày 20</option>
+              <option>ngày 21</option>
+              <option>ngày 22</option>
+              <option>ngày 23</option>
+              <option>ngày 24</option>
+              <option>ngày 25</option>
+              <option>ngày 26</option>
+              <option>ngày 27</option>
+              <option>ngày 28</option>
+              <option>ngày 29</option>
+              <option>ngày 30</option>
+              <option>ngày 31</option>
+            </select>
+            <select name="month" id="month">
+              <option>Tháng 1</option>
+              <option>Tháng 2</option>
+              <option>Tháng 3</option>
+              <option>Tháng 4</option>
+              <option>Tháng 5</option>
+              <option>Tháng 6</option>
+              <option>Tháng 7</option>
+              <option>Tháng 8</option>
+              <option>Tháng 9</option>
+              <option>Tháng 10</option>
+              <option>Tháng 11</option>
+              <option>Tháng 12</option>
+            </select>
+            <select name="year" id="year">
+              <option>Năm 2005</option>
+              <option>Năm 2004</option>
+              <option>Năm 2003</option>
+              <option>Năm 2002</option>
+              <option>Năm 2001</option>
+              <option>Năm 2000</option>
+              <option>Năm 1999</option>
+              <option>Năm 1998</option>
+              <option>Năm 1997</option>
+              <option>Năm 1996</option>
+            </select>
+          </form>
+        </td>
+      </tr>
+      <tr>
+        <td>Địa chỉ</td>
+        <td>
+          <form action="/"><textarea name="" id="" cols="30" rows="3"></textarea></form>
+        </td>
+      </tr>
+      <tr>
+        <td>Avatar</td>
+        <td>
+          <form action="/">
+            <label for="myfile"></label>
+            <input type="file" id="myfile" name="myfile">
+          </form>
+        </td>
+      </tr>
+      <tr>
+        <td>Sở thích</td>
+        <td>
+          <form action="/">
+            <input type="checkbox" id="film" class="color"><label for="film">Xem phim</label>
+            <input type="checkbox" id="sport" class="color"><label for="sport">Thể thao</label>
+            <input type="checkbox" id="web" class="color"><label for="web">Web</label>
+          </form>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" class="submit">
+          <input type="reset" value="Reset" class="reset">
+          <input type="Submit" value="OK" class="submit">
+        </td>
+
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+</html>
