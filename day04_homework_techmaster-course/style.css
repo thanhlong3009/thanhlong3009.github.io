@@ -1,108 +1,112 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body{
+body {
   font-family: 'Roboto', sans-serif;
   background-color: #f4f6f9;
 }
-img{
+img {
   max-width: 100%;
 }
-.container{
-  width: 1320px;
+.course {
+  padding-top: 30px;
+  padding-bottom: 18px;
+}
+.container {
+  width: 1392px;
   margin: auto;
 }
-.course .container{
-  margin-top: 30px;
-}
-.row{
+
+.row {
   display: flex;
   flex-wrap: wrap;
 }
 .col {
   flex-basis: 25%;
-  padding: 0 15px;
+  padding: 0 16px;
 }
-
-.card{
+.card {
   background-color: #ffffff;
   margin-bottom: 30px;
+  min-height: 338px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px 1px #d9dbde;
 }
-.image{
+.image {
   height: 220px;
 }
-.image img{
+.image img {
   height: 100%;
   width: 100%;
   object-fit: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
-.content{
-  padding: 15px;
+.content {
+  padding: 15px 24px;
 }
-.content h3{
+.content h3 {
   color: #464646;
   font-size: 19px;
   font-weight: 400;
-
 }
-.content p{
+.content p {
   color: #757575;
   font-size: 14px;
   font-weight: 15;
 }
-.content p span{
-  color:#ffd600;
+.content p span {
+  color: #ffd600;
 }
-.info{
+.info {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
 }
 /* --------------------------------------------------------------------- */
-.footer{
+.footer {
   background-color: #30598c;
   /* margin-bottom: 70px; */
 }
-.row .footer{
+.row .footer {
   padding: 0 15px;
 }
-.content-footer{
+.content-footer {
   margin: 48px 0;
-  margin-top: 48px;
   line-height: 35px;
+  min-height: 280px;
 }
-ul{
+ul {
   list-style: none;
   padding-left: 0;
-  text-align:left;
+  text-align: left;
   margin-top: 0;
   font-size: 16px;
-  color: #ffff;
+  color: #fff;
 }
-h4{
-  margin-top: 0;
+h4 {
+  margin-bottom: 8px;
   font-size: 18px;
   font-weight: 400;
   line-height: 21.6px;
 }
-li{
+li {
   font-size: 14px;
 }
-a{
-  color: #ffff;
+a {
+  color: #fff;
   text-decoration: none;
 }
-.icon{
+.icon {
   display: flex;
   justify-content: flex-start;
   margin-top: 10px;
   margin-bottom: 0;
 }
-.icon li{
+.icon li {
   margin-right: 24px;
   float: left;
   font-size: 33px;
 }
-
