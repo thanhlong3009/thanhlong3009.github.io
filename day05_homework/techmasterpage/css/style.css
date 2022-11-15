@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f6f9;
+}
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+/* -------------------------------------------------------------------- */
+
+.header {
+  height: 60px;
+  background-color: #30598c;
+  box-shadow: 0 4px 4px 0 rgb(0 0 0 / 25%);
+  padding: 0 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 37px;
+  object-fit: cover;
+  width: 100px;
+}
+
+.sidebar {
+  display: flex;
+  align-items: center;
+}
+
+.menu > ul {
+  display: flex;
+  /* align-items: center; */
+}
+
+.menu-item {
+  color: #fff;
+  text-transform: uppercase;
+  margin-right: 24px;
+  
+  position: relative;
+
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-item span{
+  margin-left: 5px;
+}
+
+.menu-item:hover .sub-menu{
+  display: flex;
+}
+
+.sub-menu{
+  position: absolute;
+  right: 0;
+  top: 100%;
+  background-color: #fff;
+
+  width: 200px;
+  box-shadow: 0 0 10px rgb(0 0 0 / 15%);
+
+  display: none;
+  flex-direction: column;
+  z-index: 1000;
+  
+}
+
+.sub-menu-item{
+  text-align: center;
+  padding: 16px;
+  color: #464646;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.sub-menu-item:hover{
+  background-color: #c4c4c4;
+  color: #fff;
+}
+
+.avatar img {
+  border-radius: 50%;
+  height: 30px;
+  object-fit: cover;
+  width: 30px;
+}
+
+.cart{
+  margin-right: 40px;
+  padding: 18px 0 ;
+  position: relative;
+}
+
+.cart-icon{
+  color: #fff;
+}
+
+.cart-count{
+  position: absolute;
+  left: 20px;
+  top: 3px;
+  color: #fff;
+  background-color: #26a69a;
+  padding: 2.8px 6px;
+  border-radius: 3.8px;
+}
+.cart-icon i{
+  font-size: 20px;
+}
+
+/* ---------------------------------------------------------------- */
+.search{
+  padding-left: 16px;
+  
+}
+.search-course{
+  width: 316px;
+  background-color:#fff;
+  border-radius: 5px;
+  margin-bottom: 24px;
+  margin-top: 18px;
+  box-shadow: 5px 2px 10px 1px #d9dbde;
+}
+.search-form{
+  width: 285px;
+  height: 38px;
+  padding: 6px 40px 6px 12px;
+  background-color:#fff;
+  border: none;
+  font-size: 15px;
+  border-radius: 5px;  
+  
+}
+.search-icon{
+  color: hsl(0, 0%, 67%);
+  
+}
+
+
+
+/* ----------------------------------------------------------------------- */
+.course {
+  padding-top: 30px;
+  padding-bottom: 18px;
+}
+.container, .search {
+  width: 1392px;
+  margin:  auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.col {
+  flex-basis: 25%;
+  padding: 0 16px;
+}
+.card {
+  background-color: #ffffff;
+  margin-bottom: 30px;
+  min-height: 338px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px 1px #d9dbde;
+}
+.image {
+  height: 220px;
+}
+.course .image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.content {
+  padding: 15px 24px;
+}
+.content h3 {
+  color: #464646;
+  font-size: 19px;
+  font-weight: 400;
+}
+.content p {
+  color: #757575;
+  font-size: 14px;
+  font-weight: 15;
+}
+.content p span {
+  color: #ffd600;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+/* --------------------------------------------------------------------- */
+.footer {
+  background-color: #30598c;
+  /* margin-bottom: 70px; */
+}
+.row .footer {
+  padding: 0 15px;
+}
+.content-footer {
+  margin: 48px 0;
+  line-height: 35px;
+  min-height: 280px;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+  text-align: left;
+  margin-top: 0;
+  font-size: 16px;
+  color: #fff;
+}
+h4 {
+  margin-bottom: 8px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.6px;
+}
+li {
+  font-size: 14px;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+a:hover {
+  color: #919294;
+}
+.icon {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.icon li {
+  margin-right: 24px;
+  float: left;
+  font-size: 33px;
+}
