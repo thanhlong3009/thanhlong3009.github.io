@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'roboto', sans-serif;
+  
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+  min-height: 344px;
+}
+
+li{
+  color: #757575;
+  padding-left: 8px;
+  cursor: pointer;
+  display: flex;
+}
+/* -------------------------------------- */
+
+.content{
+  margin-top: 110px;
+  /* width: 1000px; */
+}
+.menu-main{
+  
+  padding-left: 130px;
+  background-image: url(https://icms-image.slatic.net/images/ims-web/e3c8b19b-c3dd-4623-88de-9dfb48d0c10e.jpg);
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 50%);
+}
+.menu{
+  width: 200px;
+  box-shadow: 0 0 2px 0 rgb(0 0 0 / 25%);
+  background-color: #fff;
+  padding: 8px 0 12px;  
+}
+
+.menu-layer1{
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+}
+
+.menu-layer1-item{
+  line-height: 27px;
+  font-size: 13px;
+}
+/* ---------------hover---------------------- */
+.menu-layer1-item:hover{
+  background-color: rgb(241, 237, 237);
+  color: #e76006;
+}
+.menu-layer1-item:hover .menu-layer2{
+  display: flex;
+}
+/* ----------------------------------------------- */
+.menu-layer2{
+  position: absolute;
+  right: -200px;
+  top: 0px;
+
+  display: none;
+  flex-direction: column;
+  
+}
+/* -------------------hover--------------------- */
+.menu-layer2-item:hover{
+  background-color: rgb(241, 237, 237);
+  color: #e76006;
+}
+
+.menu-layer2-item:hover .menu-layer3{
+  display: flex;
+}
+/* ---------------------------------------------------- */
+
+.menu-layer3{
+  position:absolute;
+  right: -200px;
+  top: 0;
+  display: none;
+  flex-direction: column;
+}
+.menu-layer3-item:hover{
+  color: #e76006;
+}
+
+
+span{
+  margin-right: 5px;
+  font-size: 15px;
+
+  display: none;
+}
+.menu-layer1-item:hover .icon1{
+  display:inline;
+}
+.menu-layer2-item:hover .icon2{
+  display: inline;
+}
+
+.item{
+  justify-content: space-between;
+}
