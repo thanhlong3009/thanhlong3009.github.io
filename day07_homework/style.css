@@ -1,6 +1,6 @@
 .box {
   height: 900px;
-  /* background-color: rgb(128, 0, 0); */
+  background-color: rgb(128, 0, 0);
 
   position: relative;
   overflow: hidden;
@@ -35,9 +35,9 @@ img {
   position: absolute;
   z-index: 2;
   width: 300px;
-  top: 500px;
+  top: 650px;
   left: -500px;
-  animation: sleigh 8s infinite forwards;
+  animation: sleigh 10s infinite forwards;
 }
 @keyframes sleigh {
   0% {
@@ -121,11 +121,11 @@ canvas {
   height: 400px;
 
   /* box-shadow: 0 0 10px 0 rgb(0 0 0 / 50%); */
-  overflow: hidden;
+  /* overflow: hidden; */
   position: absolute;
-  top: 450px;
+  top: 400px;
   left: 35%;
-  z-index: 6;
+  z-index: 8;
 }
 
 .content1 {
@@ -133,7 +133,7 @@ canvas {
   height: 150px;
   position: absolute;
   background-color: rgb(14, 68, 68);
-  z-index: 5;
+  z-index: 8;
   left: -400px;
 
   transition: all 1s;
@@ -147,7 +147,7 @@ canvas {
   height: 250px;
   position: absolute;
   background-color: rgb(217, 233, 233);
-  z-index: 3;
+  z-index: 8;
   top: 150px;
   right: -400px;
   transition: all 1s;
@@ -161,9 +161,9 @@ canvas {
   width: 650px;
   height: 870px;
   position: absolute;
-  left: 35%;
+  left: 32%;
   top: 20px;
-  animation-duration: 2.5s;
+ 
 }
 
 .tree {
@@ -173,6 +173,7 @@ canvas {
   bottom: 0;
   left: 5%;
   z-index: 3;
+   animation-duration: 2.5s;
 }
 .bgr-tree {
   width: 600px;
@@ -190,6 +191,7 @@ canvas {
   bottom: -20%;
   right: -30%;
   animation: footer-1 5s infinite forwards;
+  z-index: 7;
 }
 @keyframes footer-1 {
   0% {
@@ -215,13 +217,62 @@ canvas {
   bottom: -17%;
   left: 18%;
   opacity: 0.1;
-  z-index: 5;
+  z-index: 7;
 }
 /* -----------------------item ------------------------------ */
 .banner{
   width: 350px;
   position: absolute;
   top: -2%;
-  left: 0;
+  right: 0;
   animation-duration: 3s;
 }
+.lamp{
+  width: 450px;
+  position: absolute;
+  left: 3%;
+  animation-duration: 2s;
+}
+/* --------------------------------------- */
+
+.heart-1{
+  /* width: 100px; */
+  color: red;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+.fa-heart{
+  width: 500px;
+  height: 500px;
+  animation: fa-heart 2s ease infinite;
+}
+@keyframes fa-heart {
+  0% {
+    transform:scale(1);
+  }
+  5% {
+    transform:scale(1.25);
+  }
+  20% {
+    transform:scale(1);
+  }
+  30% {
+    transform:scale(1);
+  }
+  35% {
+    transform:scale(1.25);
+  }
+  50% {
+    transform:scale(1);
+  }
+  55% {
+    transform:scale(1.25);
+  }
+  70% {
+    transform:scale(1);
+  }
+}
+
