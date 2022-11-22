@@ -96,7 +96,7 @@ a {
   height: 150px;
   background-color: #192433;
   position: absolute;
-  top: 727px;
+  top: 900px;
   line-height: 20px;
   display: flex;
   justify-content: center;
@@ -151,7 +151,7 @@ a {
 }
 /* --------------------stars--------------------------- */
 .container {
-  height: 1025px;
+  height: 950px;
   width: 100%;
 
   overflow: hidden;
