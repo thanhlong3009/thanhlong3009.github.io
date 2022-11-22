@@ -172,7 +172,8 @@ function render() {
   ctx.save()
   {
     ctx.scale(devicePix, devicePix)
-    ctx.fillStyle = 'rgb(128, 0, 0)'
+    
+    ctx.fillStyle = 'rgb(148, 0, 0)'
     ctx.fillRect(0, 0, screen.width, screen.height)
     for (var i = 0, l = PARTICLES.length; i < l; ++i) {
       PARTICLES[i].render(ctx)
