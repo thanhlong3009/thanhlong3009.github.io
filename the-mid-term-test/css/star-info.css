@@ -59,18 +59,18 @@ a {
 .body {
   position: absolute;
   width: 100%;
-  height: 750px;
-  top: 75px;
-  padding-top: 30px;
+  padding: 10%;
+  
+  min-height: 100vh;
 
   z-index: 4;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
 }
 
 .image {
-  width: 600px;
-  position: absolute;
-  top: 17%;
-  left: 10%;
+  width: 500px;
   animation-duration: 20s;
   animation-iteration-count: infinite;
 }
@@ -80,9 +80,7 @@ a {
   line-height: 35px;
   display: flex;
   flex-direction: column;
-  position: absolute;
-  top: 25%;
-  left: 55%;
+  
   animation-duration: 1s;
 }
 
@@ -92,12 +90,13 @@ a {
   height: 150px;
   background-color: #192433;
   position: absolute;
-  top: 900px;
+  bottom: 0;
   line-height: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-top: 2px solid #fff;
+  z-index: 100;
 }
 
 .author {
@@ -147,7 +146,7 @@ a {
 }
 /* --------------------stars--------------------------- */
 .container {
-  height: 900px;
+  height: 100%;
   width: 100%;
 
   overflow: hidden;
