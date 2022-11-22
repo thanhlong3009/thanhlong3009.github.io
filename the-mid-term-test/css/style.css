@@ -61,8 +61,11 @@ a {
   height: 950px;
   top: 75px;
   padding-top: 30px;
-
   z-index: 4;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 /* --------------------------------blogs----------------------------- */
 
@@ -111,17 +114,17 @@ a {
 }
 /* ------------------------------------solar-system------------------------------- */
 .solar-system {
-  position: absolute;
+  /* position: absolute;
   top: 5%;
-  left: 25%;
+  left: 25%; */
   width: 800px;
 }
 .welcome {
   font-family: consolas;
-  position: absolute;
+  
+  /* position: absolute; */
   font-size: 60px;
-  bottom: 6%;
-  left: 35%;
+  
 
   -webkit-box-reflect: below -12px linear-gradient(transparent, rgba(0, 0, 0, 0.2));
 }
