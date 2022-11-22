@@ -59,7 +59,7 @@ a {
 .body {
   position: absolute;
   width: 100%;
-  height: 650px;
+  height: 950px;
   top: 75px;
   padding-top: 30px;
   z-index: 4;
@@ -151,7 +151,7 @@ a {
 }
 /* --------------------stars--------------------------- */
 .container {
-  height: 725px;
+  height: 1025px;
   width: 100%;
 
   overflow: hidden;
