@@ -42,26 +42,26 @@ canvas {
   
 } 
 /* ------------------------------------------------------ */
-
+.bgr-tree {
+  width: 450px;
+  position: absolute;
+  left: 38%;
+  bottom: 0;
+  animation-iteration-count: infinite;
+  animation-duration: 0.5s;
+}
 
 .tree {
-  width: 25%;
+  width: 400px;
 
   position: absolute;
   bottom: 0;
   left: 37.5%;
   z-index: 3;
-   animation-duration: 2.5s;
+  animation-duration: 2.5s;
 }
 
-.bgr-tree {
-  width: 30%;
-  position: absolute;
-  left: 37%;
-  bottom: 0;
-  animation-iteration-count: infinite;
-  animation-duration: 0.5s;
-}
+
 
 /* ----------item---------- */
 .banner{
@@ -138,7 +138,7 @@ canvas {
 .sleigh {
   position: absolute;
   z-index: 2;
-  width: 20%;
+  width: 250px;
   bottom: 5%;
   left: 0;
   animation: sleigh 10s infinite forwards;
@@ -155,7 +155,7 @@ canvas {
 .sleigh-box {
   position: absolute;
   width: 20%;
-  top: -12%;
+  top: -14%;
   left: -20%;
   animation: sleigh-box 4s;
 }
@@ -192,4 +192,56 @@ canvas {
   100% {
     bottom: 5%;
   }
+}
+.card{
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  left: 43%;
+  bottom: 0;
+  z-index: 50;
+}
+.card-content{
+  width: 500px;
+  height: 400px;
+  background-image: url(https://allimages.sgp1.digitaloceanspaces.com/wikilaptopcom/2022/07/Background-Noel-%E2%80%93-Hinh-nen-Noel-dep.jpg);
+  z-index: 100;
+  position:absolute;
+  bottom: 150%;
+  left: -1000%;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  opacity: 0;
+  transition: all 3s;
+
+  padding: 70px;
+  line-height: 30px;
+  color: #fff;
+  border-radius: 15px;
+  
+}
+.card:hover .card-content{
+  opacity: 1;
+  
+  left: -100%;
+}
+.card-content p{
+  margin-top: 30px;
+  font-size: 20px;
+}
+.card-content h1{
+  padding-top: 10px;
+}
+/* ----------------------------card--------------------------- */
+audio{
+  position: fixed;
+  width: 400px;
+  height: 40px;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  
 }
