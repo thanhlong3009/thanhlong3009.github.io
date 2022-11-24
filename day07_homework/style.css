@@ -200,6 +200,7 @@ canvas {
   left: 43%;
   bottom: 0;
   z-index: 50;
+  /* background-color: #fff; */
 }
 .card-content{
   width: 500px;
@@ -238,10 +239,11 @@ canvas {
 /* ----------------------------card--------------------------- */
 audio{
   position: fixed;
-  width: 400px;
-  height: 40px;
-  top: 0;
+  width: 130px;
+  height: 100px;
+  bottom: 2%;
   left: 0;
   z-index: 100;
+  opacity: 0.2;
   
 }
